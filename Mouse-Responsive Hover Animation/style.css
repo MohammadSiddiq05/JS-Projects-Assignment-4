@@ -1,0 +1,21 @@
+.parent {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: aquamarine;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.child {
+    border: 1px solid black;
+    background: linear-gradient(to right, #68c3cf, #feb47b);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
